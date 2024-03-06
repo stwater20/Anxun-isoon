@@ -12,6 +12,10 @@ This data implies a strong communication link between `lengmo` and `Shutd0wn`, p
 
 ![image](https://github.com/soufianetahiri/Anxun-isoon/assets/17729335/da21f000-ccce-471c-9fb9-580e821098ee)
 
+Using [plotly](https://plotly.com/python/) in [to_sankey.ipynb](./used_scripts/to_sankey.ipynb).
+
+![image](/assets/sankey_digram.png)
+
 **The analysis of working hours by examining the distribution of message times**
 
     0      279
@@ -43,6 +47,12 @@ The distribution of messages per hour shows a pattern that can help infer the wo
 
 -   **Peak Activity Hours:** From the early morning hours around 2 AM, increasing to a peak at 3 AM, and then gradually decreasing after 5 AM. There's another peak starting from 8 AM and extending through 10 AM.
 -   **Lower Activity Hours:** Activity significantly drops after 4 PM, with minimal to no messages after 5 PM.
+
+# Cause of leak (guessed)
+
+It is related to business sales or salary. The content mentioned that salary issues caused dissatisfaction.
+
+![image](/assets/wordcloud_tfidf.png)
 
 # Initial hot takes
 -   https://twitter.com/DE7AULTsec/status/1759388057323618611
